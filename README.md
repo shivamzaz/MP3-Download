@@ -66,7 +66,7 @@ yeh hosla kaise jhuke
 usage: LetsMusic [-h] [-p] [-q] [-s SONG [SONG ...]]
                     [-l SONGLIST [SONGLIST ...]] [-f FILE [FILE ...]]
 
-Instantly download any song!
+forthwith download any song!
 
 optional arguments:
   -h, --help            show this help message and exit
