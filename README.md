@@ -6,13 +6,13 @@
 For Python 2.7
 
 ```bash
-$ sudo pip install instantmusic
+$ sudo pip install LetsMusic
 ```
 
 For Python 3.4
 
 ```bash
-$ sudo pip3 install instantmusic
+$ sudo pip3 install LetsMusic
 ```
 
 ### Note:
@@ -35,7 +35,7 @@ You would also need `libav` to download in `.mp3` format.
 ## Usage
 
 ```bash
-$ instantmusic 
+$ LetsMusic 
 ```
 
 ```zsh
@@ -64,8 +64,8 @@ yeh hosla kaise jhuke
 ### Options
 
 ```
-❯ instantmusic -h                                                   
-usage: instantmusic [-h] [-p] [-q] [-s SONG [SONG ...]]
+❯ LetsMusic -h                                                   
+usage: LetsMusic [-h] [-p] [-q] [-s SONG [SONG ...]]
                     [-l SONGLIST [SONGLIST ...]] [-f FILE [FILE ...]]
 
 Instantly download any song!
