@@ -1,15 +1,4 @@
-# Instantly download any song! :guitar: :notes: :musical_score: :trumpet: :violin:
-
-[![Join the chat at https://gitter.im/yask123/Instant-Music-Downloader](https://badges.gitter.im/yask123/Instant-Music-Downloader.svg)](https://gitter.im/yask123/Instant-Music-Downloader?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Build Status](https://travis-ci.org/yask123/Instant-Music-Downloader.svg?branch=master)](https://travis-ci.org/yask123/Instant-Music-Downloader)
-[![PyPI](https://img.shields.io/pypi/v/Instantmusic.svg)](https://pypi.python.org/pypi/instantmusic/1.3)
-
-
-### Note for KWOC folks:
-> Please use gitter for all communications. I won't be able to respond individually via emailuntill Jan (busy).
-> But I will try my best to answer all your questions via gitter.
-
-Without knowing its name!!
+# Instantly download any song!
 
 > This is so cool!
 
@@ -95,72 +84,3 @@ optional arguments:
                         in the file is considered one song.
 ```
 
-### MP3 Tags
-> WIP
-
-
-The script automatically embeds `id3` tags to the downloaded `.mp3` file.
-
-It will grab following meta data:
-
-1. Track title (From YT)
-2. Artist (From YT)
-3. Album name (From metrolyrics.com)
-4. Album art (From google images)
-5. Lyrics  (From metrolyrics.com) 
-
-<img src="http://i.imgur.com/fNXww62.png" height="50%" width="50%">
-
-
-```bash
-$ sudo pip install fixalbumart
-
-❯cd MyMusic
-
-❯fixalbumart
-
->> Fixing taylor swift - love story
->> In the end - Linkin park 
-......
-
->> Fixed all songs
-
-```
-
-
-
-### Video
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=H2GQc81hpBE
-" target="_blank"><img src="http://img.youtube.com/vi/H2GQc81hpBE/0.jpg" 
-alt="Demo" width="240" height="180" border="10" /></a>
-
-
-## Requirements
-1. Youtube-dl
-2. BeautifulSoup
-
-## Disclaimer
-
-Downloading copyrighted material may be illegal in your country. Use at your own risk.
-
-
-## The MIT License
-> Copyright (c) 2015 Yask Srivastava http://iyask.me
-
-> Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-> The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-> THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
